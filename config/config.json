@@ -1,15 +1,16 @@
 {
     "PeerIps": [
-        "219.228.148.45",
-        "219.228.148.80",
-        "219.228.148.89",
-        "219.228.148.129",
-        "219.228.148.178",
-        "219.228.148.181",
-        "219.228.148.222",
-        "219.228.148.231"
     ],
-    "ClientIp": "219.228.148.172",
+    "ProcessNumArray": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+    ],
     "IpNum": 8,
     "PortBase": 10000,
     "ProcessNum": 1,
@@ -20,9 +21,12 @@
     "LogStdout": true,
     "LogLevel": 0,
     "GoMaxProcs": 4,
-    "BatchTxNum": 200,
-    "TxSize": 100,
+    "BatchTxNum": 10,
+    "TxSize": 400,
     "GossipNum": 3,
     "EnableGossip": false,
-    "ExecNum": 0
+    "ExecNum": 0,
+    "ProposerNum": 5,
+    "Load": 200,
+    "Delay": 5
 }
